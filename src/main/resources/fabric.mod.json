@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "mmitemsmod",
+	"version": "${version}",
+	"name": "MMitemsMod",
+	"description": "Featuring more synthesis recipes that could not be synthesized in the original version!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"sources": "https://github.com/Re0XIAOPA/mmitemsmod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/mmitemsmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.awafuns.mmitemsmod.MMitemsMod"
+		],
+		"fabric-datagen": [
+			"com.awafuns.mmitemsmod.MMitemsModDataGenerator"
+		]
+	},
+	"mixins": [
+		"mmitemsmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
