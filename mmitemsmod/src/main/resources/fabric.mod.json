@@ -3,13 +3,12 @@
 	"id": "mmitemsmod",
 	"version": "${version}",
 	"name": "MMitemsMod",
-	"description": "拥有更多原版无法合成的合成配方!",
+	"description": "Featuring more synthesis recipes that could not be synthesized in the original version!",
 	"authors": [
-		"MajorFoxs_OvO"
+		"Me!"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Re0XIAOPA/mmitemsmod"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/mmitemsmod/icon.png",
@@ -20,9 +19,6 @@
 		],
 		"fabric-datagen": [
 			"com.awafuns.mmitemsmod.MMitemsModDataGenerator"
-		],
-		"client": [
-			"com.awafuns.mmitemsmod.MMitemsModClient"
 		]
 	},
 	"mixins": [
