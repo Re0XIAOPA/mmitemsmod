@@ -19,7 +19,7 @@ public class ModItemGroups {
 //    private static RegistryKey<ItemGroup> register(String id) {
 //        return RegistryKey.of(RegistryKeys.ITEM_GROUP, Identifier.of(MMitemsMod.MOD_ID, id));
 //    }
-//
+//    awa
 //    public static void registerItemGroups() {
 //        Registry.register(Registries.ITEM_GROUP, MMI_GROUP,
 //                ItemGroup.create(ItemGroup.Row.TOP, 7)
